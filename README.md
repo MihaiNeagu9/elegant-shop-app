@@ -59,6 +59,7 @@ Screenshots coming soon
 ├─ src/
 │  ├─ assets/            # product images
 │  ├─ components/        # reusable UI components
+│  ├─ store/             # context/state management
 │  ├─ App.jsx            # main app logic
 │  ├─ dummy-products.js  # mock product data
 │  ├─ index.css          # global styles
