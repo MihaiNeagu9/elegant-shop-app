@@ -16,6 +16,8 @@ Prop Drilling occurs when I have information in the parent component and I want 
 
 One solution is Component Composition, which does not send information to components that do not use it, but moves the content of the component that uses the information as close as possible to where it is needed by using the special children prop. This makes the code easier to read, understand, and maintain. The main disadvantage is that if this method is used for all components, it would result in a bloated parent component (in this project, the App component).
 
+Another solution is Context, which allows global information to be shared between components. This way, any component in the tree can read or modify the information. I created the context using the createContext function from the react module, provided all components with the information through the value attribute, used the use hook (React 19+) to connect the context to the components, and linked the context to the state.
+
 ---
 
 ## 🖼️ Screenshots
