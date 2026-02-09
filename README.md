@@ -11,6 +11,13 @@ This project is part of React Bootcamp. The main goal is to practice and underst
 
 ---
 
+## 📚 What I Learned
+Prop Drilling occurs when I have information in the parent component and I want to pass it to a child component lower down in the tree, and the intermediate components receive that information only to pass it on. This makes the code difficult to read and maintain.
+
+One solution is Component Composition, which does not send information to components that do not use it, but moves the content of the component that uses the information as close as possible to where it is needed by using the special children prop. This makes the code easier to read, understand, and maintain. The main disadvantage is that if this method is used for all components, it would result in a bloated parent component (in this project, the App component).
+
+---
+
 ## 🖼️ Screenshots
 
 Screenshots coming soon
@@ -59,13 +66,6 @@ Screenshots coming soon
 ├─ package.json          # scripts and dependencies
 └─ package-lock.json     # npm lockfile
 ```
-
----
-
-## 📚 What I Learned
-Prop Drilling occurs when I have information in the parent component and I want to pass it to a child component lower down in the tree, and the intermediate components receive that information only to pass it on. This makes the code difficult to read and maintain.
-
-One solution is Component Composition, which does not send information to components that do not use it, but moves the content of the component that uses the information as close as possible to where it is needed by using the special children prop. This makes the code easier to read, understand, and maintain. The main disadvantage is that if this method is used for all components, it would result in a bloated parent component (in this project, the App component).
 
 ---
 
