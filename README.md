@@ -31,7 +31,7 @@ Screenshots coming soon...
 - Automatic quantity increment if the product already exists in the cart
 - Automatic removal of products when quantity reaches 0
 - Rendering the product list from a local data source (DUMMY_PRODUCTS)
-- Passing actions down to child components (Header, Product) via props
+- Passing actions down to child components (Header, Product) via context
 
 ---
 
