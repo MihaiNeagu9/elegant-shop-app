@@ -27,7 +27,7 @@ Screenshots coming soon...
 ---
 
 ## ⚙️ Features
-- Shopping cart state management with useState (add/remove/update quantity)
+- Shopping cart state management with useState or useReducer (add/remove/update quantity)
 - Automatic quantity increment if the product already exists in the cart
 - Automatic removal of products when quantity reaches 0
 - Rendering the product list from a local data source (DUMMY_PRODUCTS)
