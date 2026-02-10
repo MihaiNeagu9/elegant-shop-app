@@ -22,7 +22,7 @@ Another solution is Context, which allows global information to be shared betwee
 
 ## 🖼️ Screenshots
 
-Screenshots coming soon
+Screenshots coming soon...
 
 ---
 
@@ -73,7 +73,8 @@ Screenshots coming soon
 ---
 
 ## 🔮 Possible Improvements
-Not yet completed...
+- Persist the cart
+- Add checkout feature
 
 ---
 
